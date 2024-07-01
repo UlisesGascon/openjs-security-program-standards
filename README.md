@@ -47,3 +47,14 @@ This command generates static content into the `build` directory and can be serv
 4. Replace the content of `docs/standards.html` with the new content
 5. Run the script `npm run extract-standards` to extract the items from the HTML and update the `standards.json` file
 
+### Update the website
+
+Once you have updated the items, you can update the website by running the following commands:
+
+```bash
+npm run populate-details
+npm run populate-implementations
+```
+
+This will autopolulate the details and implementations sections of the website, respectively. Note that this will modify the folders `docs/details` and `docs/implementations` so make sure to commit the changes.
+
