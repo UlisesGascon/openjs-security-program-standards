@@ -1,0 +1,1327 @@
+[
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "1. User Authentication",
+    "c-scrm?": "Y",
+    "item": "Multi Factor Authentication (MFA) Enforced Across the Github Organization",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/github/enterprise/enterprise_enforce_two_factor_authentication.html&sa=D&source=editors&ust=1719189844647012&usg=AOvVaw2NKAPq9kDz8YQptge9_jwP",
+      "description": "OpenSSF SCM Best PracticesOpenSSF Best Practices Badge Gold Level [require_2FA]"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization&sa=D&source=editors&ust=1719189844647126&usg=AOvVaw2YyTxQmGFI2DDz3vhOyYbS",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "1. User Authentication",
+    "c-scrm?": "Y",
+    "item": "Multi Factor Authentication (MFA) Enforced Across the npm Organization",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/package-manager-best-practices/blob/main/published/npm.md&sa=D&source=editors&ust=1719189844647535&usg=AOvVaw1Vm0O-SdvFKUi1dHwmnkce",
+      "description": "OpenSSF npm Best Practices"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.npmjs.com/requiring-two-factor-authentication-in-your-organization&sa=D&source=editors&ust=1719189844647609&usg=AOvVaw0cNqz2RgkfVKf4CcPvT5AZ",
+      "description": "npm Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "1. User Authentication",
+    "c-scrm?": "",
+    "item": "Multi Factor Authentication (MFA) Enforced in All Contexts Whenever Techncially Feasible",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md&sa=D&source=editors&ust=1719189844647957&usg=AOvVaw0cwG4ebB5GAv8Sif7u8un4",
+      "description": "CNCF CNSWP v1.0"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "1. User Authentication",
+    "c-scrm?": "Y",
+    "item": "Multi Factor Authentication (MFA) may not use Methods Vulnerable to Impersonation (eg: SMS)",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria/2%232.secure_2FA&sa=D&source=editors&ust=1719189844648399&usg=AOvVaw0BefwJpcXw4Inr_-QFQ-Ps",
+      "description": "OpenSSF Best Practices Badge Gold Level [secure_2FA]"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa&sa=D&source=editors&ust=1719189844648477&usg=AOvVaw3bDRo0jUuwaEMc6rk03tM3",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "1. User Authentication",
+    "c-scrm?": "Y",
+    "item": "Use SSH keys for developer access to source code repositories",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23use-ssh-keys-to-provide-developers-access-to-source-code-repositories&sa=D&source=editors&ust=1719189844648866&usg=AOvVaw2lztCl2T3J6SPtrl-OXKb8",
+      "description": "CNCF SSCP v1.0 #192"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh&sa=D&source=editors&ust=1719189844649094&usg=AOvVaw1qURe9pnR-u-i2-gxzAsRo",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "1. User Authentication",
+    "c-scrm?": "Y",
+    "item": "Use SSH keys with a passphrase",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23use-ssh-keys-to-provide-developers-access-to-source-code-repositories&sa=D&source=editors&ust=1719189844649513&usg=AOvVaw0DGDmZSXJ5_hvXwq2J1QA8",
+      "description": "CNCF SSCP v1.0 #192"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases&sa=D&source=editors&ust=1719189844649597&usg=AOvVaw1Ko_FtioaH_5SiYAqnc66W",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "1. User Authentication",
+    "c-scrm?": "Y",
+    "item": "Have a key rotation policy for user accounts",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23user-content-fnref-27-4e56305414bd02da4843ec1d7d856144&sa=D&source=editors&ust=1719189844649991&usg=AOvVaw0-NNWwSwceRFfSSTPXllxp",
+      "description": "CNCF SSCP v1.0 #193"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases&sa=D&source=editors&ust=1719189844650050&usg=AOvVaw2csZ3hJqhULxgWolcqw7NM",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "1. User Authentication",
+    "c-scrm?": "Y",
+    "item": "Use a hardware security for Multi Factor Authentication (MFA) for Logging into Github",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/great-mfa-project/blob/main/security-rationale.md&sa=D&source=editors&ust=1719189844650346&usg=AOvVaw0GBT8Q6lJouFh1K1HJTpzY",
+      "description": "OpenSSF Great MFA Project Security Rationale"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication%23configuring-two-factor-authentication-using-a-security-key&sa=D&source=editors&ust=1719189844650393&usg=AOvVaw3HUkbS_-wlw7c1z8GoVIbN",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "1. User Authentication",
+    "c-scrm?": "Y",
+    "item": "Use a hardware security for Multi Factor Authentication (MFA) for Non-Interactive Github Actions",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/great-mfa-project/blob/main/security-rationale.md&sa=D&source=editors&ust=1719189844650665&usg=AOvVaw2iRA3Zw2eOnGzLC4pHRKQo",
+      "description": "OpenSSF Great MFA Project Security Rationale"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent%23generating-a-new-ssh-key-for-a-hardware-security-key&sa=D&source=editors&ust=1719189844650712&usg=AOvVaw3OovvhlaT2r_XX8NhBfp4l",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "Define roles aligned to functional responsibilities",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23define-roles-aligned-to-functional-responsibilities&sa=D&source=editors&ust=1719189844651008&usg=AOvVaw30C2I68UqzxG-qQSqi5YvY",
+      "description": "CNCF SSCP v1.0 #188"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization&sa=D&source=editors&ust=1719189844651084&usg=AOvVaw2UadAwefIHhHHi1CUSlYvz",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "Define Individuals/Teams who Write Access to a Github Repo",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23define-individualsteams-that-are-responsible-for-code-in-a-repository-and-associated-coding-conventions&sa=D&source=editors&ust=1719189844651400&usg=AOvVaw0srrC6IH5xhNkaf5QQtiPU",
+      "description": "CNCF SSCP v1.0 #185"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization&sa=D&source=editors&ust=1719189844651453&usg=AOvVaw0uFvLjr5BARc6UEQH2v6GF",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "Limit Number of Github Org Owners (ideally Fewer Than Three)",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/github/member/organization_has_too_many_admins.html&sa=D&source=editors&ust=1719189844651790&usg=AOvVaw3cwgPWhqLWCCVC33i5KCVU",
+      "description": "OpenSSF SCM Best Practices"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "[For Projects with Two or more Owners] Have Two Owners Configured for Access Continuity",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%231.access_continuity&sa=D&source=editors&ust=1719189844652178&usg=AOvVaw2_pgmpy8GEmei-vefJKy84",
+      "description": "OpenSSF Best Practices Badge Silver Level [access_continuity]"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/maintaining-ownership-continuity-for-your-organization&sa=D&source=editors&ust=1719189844652242&usg=AOvVaw0VPoqo36x2exbNizm1Ql5k",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "Limit Number of Github Repository Admins (ideally Fewer Than Three)",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/github/repository/repository_has_too_many_admins.html&sa=D&source=editors&ust=1719189844652542&usg=AOvVaw1vosxCIugE88u2UTK9W71p",
+      "description": "OpenSSF SCM Best Practices"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "Github Organization Admins Should Have Activity In The Last 6 Months",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/github/member/stale_admin_found.html&sa=D&source=editors&ust=1719189844652850&usg=AOvVaw0TeClqokLyLEmTUgfizr5I",
+      "description": "OpenSSF SCM Best Practices"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "Github Organization Members Should Have Activity In The Last 6 Months",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/github/member/stale_member_found.html&sa=D&source=editors&ust=1719189844653158&usg=AOvVaw3m4Yu3Hy6fPSIpN7Omq8t4",
+      "description": "OpenSSF SCM Best Practices"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "Default Github Org Member Permissions Should Be Restricted",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/github/organization/default_repository_permission_is_not_none.html&sa=D&source=editors&ust=1719189844653482&usg=AOvVaw2OoGHJQJx_KxE63kdRexOt",
+      "description": "OpenSSF SCM Best Practices"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/setting-base-permissions-for-an-organization&sa=D&source=editors&ust=1719189844653543&usg=AOvVaw3bd72JVoLZ3LzDy2Z6xtZF",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "Only Admins Should Be Able To Create Public Repositories",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/github/organization/non_admins_can_create_public_repositories.html&sa=D&source=editors&ust=1719189844653910&usg=AOvVaw0JyYvXD39dg3Mm7FUJ6z0z",
+      "description": "OpenSSF SCM Best Practices"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/organizations/managing-organization-settings/restricting-repository-creation-in-your-organization&sa=D&source=editors&ust=1719189844653967&usg=AOvVaw0cIOXXaBSZrLe4mWHastOD",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "[For Projects with Two or more Admins] Do not allow Admins to Bypass Branch Protection Settings",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches&sa=D&source=editors&ust=1719189844654281&usg=AOvVaw3QYk5UjZdbeXqlEArQ5sTO",
+      "description": "Github Supply Chain Security Best Practices"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches%23do-not-allow-bypassing-the-above-settings&sa=D&source=editors&ust=1719189844654333&usg=AOvVaw0VoqrucKsJOfL0UE94DJil",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "2. User Account Permissions",
+    "c-scrm?": "Y",
+    "item": "Enable Vigilent Mode for Signing Commits and Tags",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23require-signed-commits&sa=D&source=editors&ust=1719189844654662&usg=AOvVaw1TR1_zNOSuKd4zfOR0JHfk",
+      "description": "CNCF SSCP 1.0 #325"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits&sa=D&source=editors&ust=1719189844654736&usg=AOvVaw1n0cAPo7smhzA-cL31nN08",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "3. Service Authentication",
+    "c-scrm?": "Y",
+    "item": "No Secrets and Credentials in Source Code",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria%230.no_leaked_credentials&sa=D&source=editors&ust=1719189844655040&usg=AOvVaw1NLAtYqIwZ8omF4sm6dA83",
+      "description": "OpenSSF Best Practices Badge Passing Level [no_leaked_credentials]"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning&sa=D&source=editors&ust=1719189844655092&usg=AOvVaw0TimTzZr_5mz9Ad29a2lya",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "3. Service Authentication",
+    "c-scrm?": "Y",
+    "item": "Secrets are injected at runtime, such as environment variables or as a file (eg: use Github Secrets)",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md%23secrets-encryption&sa=D&source=editors&ust=1719189844655361&usg=AOvVaw1YzNkePfarIuqoDRUan3lW",
+      "description": "CNCF CNSWP 2.0 #195"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions%23creating-secrets-for-an-organization&sa=D&source=editors&ust=1719189844655409&usg=AOvVaw3w9lRuJrQd_U-EJvL4Q_G7",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "3. Service Authentication",
+    "c-scrm?": "Y",
+    "item": "Use npm Granular Access Tokens rather than Legacy Automation Tokens",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://docs.npmjs.com/creating-and-viewing-access-tokens&sa=D&source=editors&ust=1719189844655672&usg=AOvVaw2fm5Sur17ta4bO6U5HaLPi",
+      "description": "npm Docs"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "3. Service Authentication",
+    "c-scrm?": "Y",
+    "item": "Github Webhooks Use Secrets",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23webhooks&sa=D&source=editors&ust=1719189844656008&usg=AOvVaw38CbtsXSMPaK6Q5L1Cjjgz",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions&sa=D&source=editors&ust=1719189844656180&usg=AOvVaw0nFF99oWagEPU9N4TkpZKN",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "3. Service Authentication",
+    "c-scrm?": "Y",
+    "item": "Have a rotation policy for service account credentials",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23user-content-fnref-27-4e56305414bd02da4843ec1d7d856144&sa=D&source=editors&ust=1719189844656468&usg=AOvVaw2npkSC3wQ75agPXZqNEQO1",
+      "description": "CNCF SSCP v1.0 #193"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases&sa=D&source=editors&ust=1719189844656518&usg=AOvVaw0_TYg0XbBlZCP972QFrKyk",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Consistent Automated Build Process is Documented and Used",
+    "sources": "",
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Default Github Workflow Token Permissions are Set to Lowest Priv (Read Only)",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23token-permissions&sa=D&source=editors&ust=1719189844657125&usg=AOvVaw0ZPkwfk8qVYLRyr0C1Tbu4",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise%23configuring-the-default-github_token-permissions&sa=D&source=editors&ust=1719189844657240&usg=AOvVaw0nBRMm9HUwUVKBziI7SSlp",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Workflows Should Not Be Allowed To Create or Approve Pull Requests",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23token-permissions&sa=D&source=editors&ust=1719189844657632&usg=AOvVaw3qqr6jjP9jE_oWRUn1UMSb",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise%23preventing-github-actions-from-creating-or-approving-pull-requests&sa=D&source=editors&ust=1719189844657717&usg=AOvVaw3K-XPCx0yWuYly0naS2yyn",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Github Actions are Restricted to Selected Repositories",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/github/actions/all_repositories_can_run_github_actions.html&sa=D&source=editors&ust=1719189844658051&usg=AOvVaw33m8byIGMmpPutyShL-DLM",
+      "description": "OpenSSF SCM Best Practices"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository%23managing-github-actions-permissions-for-your-repository&sa=D&source=editors&ust=1719189844658192&usg=AOvVaw2c_25UjAnyBsQPhbcXis-I",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "GitHub Actions Should Be Limited To Verified or Explicitly Trusted Actions",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/github/actions/all_github_actions_are_allowed.html&sa=D&source=editors&ust=1719189844658467&usg=AOvVaw0uPMf5bDdo0tHHyKR7cIoC",
+      "description": "OpenSSF SCM Best Practices"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository%23allowing-select-actions-and-reusable-workflows-to-run&sa=D&source=editors&ust=1719189844658511&usg=AOvVaw175CY85JoaygmpxoOsF6Lo",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Build Pipeline Cannot Execute Arbitrary Code Outside of a Build Script",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23dangerous-workflow&sa=D&source=editors&ust=1719189844658769&usg=AOvVaw1RtJc5eSbwjCm-Dg-sNTSe",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Avoid Script Injection with Untrusted Context Variables",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23dangerous-workflow&sa=D&source=editors&ust=1719189844659122&usg=AOvVaw30iCdtc9fO3bgn4YsrNtR-",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://securitylab.github.com/research/github-actions-untrusted-input/&sa=D&source=editors&ust=1719189844659175&usg=AOvVaw2y3VhG6ITAvfui5KyAsN5B",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Pin Actions to a full length commit SHA",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://securitylab.github.com/research/github-actions-building-blocks/&sa=D&source=editors&ust=1719189844659600&usg=AOvVaw3i6esmSQOvSzo3o6KKypOd",
+      "description": "Github Docs"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Only Allow Workflows Write Permissions at the Job-Level",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23token-permissions&sa=D&source=editors&ust=1719189844659984&usg=AOvVaw3zg8CdtbbmDeUnwT-tr8gd",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions%23permissions&sa=D&source=editors&ust=1719189844660056&usg=AOvVaw14HFm7c1zMpDatkTjvrVp5",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Limit changes from forks to workflows in public repositories",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository%23controlling-changes-from-forks-to-workflows-in-public-repositories&sa=D&source=editors&ust=1719189844660331&usg=AOvVaw1GoleOagJu4kYoEo9YcKL7",
+      "description": "Github Docs"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Disable use of Self-Hosted Runners in Github Org",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions%23hardening-for-self-hosted-runners&sa=D&source=editors&ust=1719189844660630&usg=AOvVaw3wxyz6wuft9oelNunbq8eT",
+      "description": "Github Action Hardening Docs"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization%23limiting-the-use-of-self-hosted-runners&sa=D&source=editors&ust=1719189844660700&usg=AOvVaw3RiNM8iDJuMh_bimGB-hba",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Use a Workflow Security Scanner",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23token-permissions&sa=D&source=editors&ust=1719189844661015&usg=AOvVaw10ayniqixvuH0RQd2Mbxa0",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://github.com/step-security/secure-repo&sa=D&source=editors&ust=1719189844661101&usg=AOvVaw0yy_cFNKbn8PzPBNO_BaGp",
+      "description": "Step Security secure-repo"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "4. Github Workflows",
+    "c-scrm?": "Y",
+    "item": "Use a Github Runner Security Scanner",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions%23hardening-for-self-hosted-runners&sa=D&source=editors&ust=1719189844661432&usg=AOvVaw1aHi42u76TM0-XTZ3n-P0n",
+      "description": "Github Action Hardening Docs"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://github.com/step-security/harden-runner&sa=D&source=editors&ust=1719189844661480&usg=AOvVaw2PGjiFGrkquHdUWFWbRD2c",
+      "description": "Step Security harden-runner"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "5. Vulnerability Management",
+    "c-scrm?": "",
+    "item": "CVSS Critical Vulns Patched within 30 Days",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria%230.vulnerabilities_critical_fixed&sa=D&source=editors&ust=1719189844661772&usg=AOvVaw3UbOOkqHHWtbsXEv4VXC8M",
+      "description": "OpenSSF Best Practices Badge Passing Level [vulnerabilities_critical_fixed]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "5. Vulnerability Management",
+    "c-scrm?": "",
+    "item": "All Publicly Known CVSS Medium and High Vulns Patched within 60 Days",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23vulnerabilities&sa=D&source=editors&ust=1719189844662061&usg=AOvVaw00FZHdDYMIStMcrQgiUILa",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "5. Vulnerability Management",
+    "c-scrm?": "",
+    "item": "Exploitable Scanner (SAST, DAST) CVSS Medium and High Vulns Fixed within 60 Days",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%230.static_analysis_fixed&sa=D&source=editors&ust=1719189844662376&usg=AOvVaw2GTOoBm_M2gzwpmkbeAWOC",
+      "description": "OpenSSF Best Practices Badge Passing Level [static_analysis_fixed]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "5. Vulnerability Management",
+    "c-scrm?": "",
+    "item": "Regression Tests for => 50% of Bugs and 100% of Security Vulns",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%231.regression_tests_added50&sa=D&source=editors&ust=1719189844662614&usg=AOvVaw3rBoAFmH-oLEmi0SoXK_Ec",
+      "description": "OpenSSF Best Practices Badge Silver Level [regression_tests_added50]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "5. Vulnerability Management",
+    "c-scrm?": "Y",
+    "item": "Repository is Updated at least Quarterly to Update Vulnerable Dependencies",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23maintained&sa=D&source=editors&ust=1719189844662883&usg=AOvVaw37huVokL0eL3qO_JmZFW9w",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "5. Vulnerability Management",
+    "c-scrm?": "Y",
+    "item": "Commonly Used Older Versions Supported or Upgrade Path Provided/Documented",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%231.maintenance_or_update&sa=D&source=editors&ust=1719189844663178&usg=AOvVaw09hPD-jUovwSl2dYnKZOj-",
+      "description": "OpenSSF Best Practices Badge Silver Level [maintenance_or_update]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "5. Vulnerability Management",
+    "c-scrm?": "Y",
+    "item": "Project Uses a Package Manager as their Common Method for Users to Install/Uninstall",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23packaging&sa=D&source=editors&ust=1719189844663544&usg=AOvVaw2xhZPy2rqVs_-aCyNSoTRi",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "6. Coordinated Vulnerability Disclosure",
+    "c-scrm?": "",
+    "item": "Security.md Meets OpenJS CVD Guidelines",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23security-policy&sa=D&source=editors&ust=1719189844663839&usg=AOvVaw3qPel45tUA-gUYzSHsBGnF",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": "OpenJS CVD Guidance"
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "6. Coordinated Vulnerability Disclosure",
+    "c-scrm?": "",
+    "item": "Project Leverages a CVD Tool to Privately Receive/Manage External Vulnerability Reports",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%230.vulnerability_report_private&sa=D&source=editors&ust=1719189844664134&usg=AOvVaw1gIZhhQW633zKS4PbDoq0N",
+      "description": "OpenSSF Best Practices Badge Passing Level [vulnerability_report_private]"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-an-organization&sa=D&source=editors&ust=1719189844664191&usg=AOvVaw2QTHEIFVfdn2FQFv-xSM0s",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "6. Coordinated Vulnerability Disclosure",
+    "c-scrm?": "",
+    "item": "All External Vulnerability Reports Responded to <14 Days",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria%230.vulnerability_report_response&sa=D&source=editors&ust=1719189844664481&usg=AOvVaw1uCL0043gP6HBqrnDDd5Pz",
+      "description": "OpenSSF Best Practices Badge Passing Level [vulnerability_report_response]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "6. Coordinated Vulnerability Disclosure",
+    "c-scrm?": "",
+    "item": "Establish a Clear Communication and Incident Response Plan",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://best.openssf.org/SCM-BestPractices/%23operations&sa=D&source=editors&ust=1719189844664738&usg=AOvVaw2axFgEylZehgA5l_ZoyREm",
+      "description": "OpenSSF SCM Best Practices"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "6. Coordinated Vulnerability Disclosure",
+    "c-scrm?": "Y",
+    "item": "All Patched Security Vulnerabilities are Issued a CVE",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%230.release_notes_vulns&sa=D&source=editors&ust=1719189844665023&usg=AOvVaw1hNahf5ZwYj5U60oLOXU5s",
+      "description": "OpenSSF Best Practices Badge Passing Level [release_notes_vulns]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "6. Coordinated Vulnerability Disclosure",
+    "c-scrm?": "",
+    "item": "Release Notes must Include the CVE ID of Patched Security Vulnerabilities",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%230.release_notes_vulns&sa=D&source=editors&ust=1719189844665372&usg=AOvVaw2Zn_hVeUgX2ZCj7_Wm052I",
+      "description": "OpenSSF Best Practices Badge Passing Level [release_notes_vulns]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "",
+    "item": "[For Projects with Two or more Maintainers] Document Coding Standards Style Guide",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%231.coding_standards&sa=D&source=editors&ust=1719189844665641&usg=AOvVaw3WklZ5BZmslU5tYO4vSJcn",
+      "description": "OpenSSF Best Practices Badge Silver Level [coding_standards]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "",
+    "item": "Automated Style Enforcer is Used (eg: ESLInt)",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://scvs.owasp.org/scvs/v5-component-analysis/&sa=D&source=editors&ust=1719189844665921&usg=AOvVaw1pUZalkCJB6K_blrX3K0cR",
+      "description": "OWASP SCVS L1 5.1"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://eslint.org/docs/latest/use/getting-started%23installation-and-usage&sa=D&source=editors&ust=1719189844666050&usg=AOvVaw23Ui3UUsNK6wioB88fblmU",
+      "description": "ESLint Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "",
+    "item": "Compilers/Linter Warnings Addressed in order to Merge",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%231.warnings_strict&sa=D&source=editors&ust=1719189844666312&usg=AOvVaw2TweKj_1Nhq86mjtD4npS3",
+      "description": "OpenSSF Best Practices Badge Silver Level [warnings_strict]"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://eslint.org/docs/latest/use/getting-started%23installation-and-usage&sa=D&source=editors&ust=1719189844666366&usg=AOvVaw3OGHczksB-tHBkUyA2zKsz",
+      "description": "ESLint Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "",
+    "item": "As Part of a CI Workflow Automated Tests Must Run Each Commit and Pass in order to Merge",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23ci-tests&sa=D&source=editors&ust=1719189844666608&usg=AOvVaw1hqVvfta-coG2fmttmBviW",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "Y",
+    "item": "All Commits are Scanned for Secrets and Credentials",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23user-content-fnref-21-4e56305414bd02da4843ec1d7d856144&sa=D&source=editors&ust=1719189844666938&usg=AOvVaw1ptUN7yJ4yINBGTmdUH7zl",
+      "description": "CNCF SSCP v1.0 #184"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning&sa=D&source=editors&ust=1719189844667007&usg=AOvVaw0sN8tx0AysE7xt0HTAZp2W",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "Y",
+    "item": "New Commits Containing Secrets or Credentials are Blocked from Merging",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria%230.no_leaked_credentials&sa=D&source=editors&ust=1719189844667281&usg=AOvVaw3vJFtgII480TJXGG3jakgy",
+      "description": "OpenSSF Best Practices Badge Passing Level [no_leaked_credentials]"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning&sa=D&source=editors&ust=1719189844667325&usg=AOvVaw1b1U3fwe3sl8AjwVI2PEwZ",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "",
+    "item": "All Commits are Scanned by a Static Application Security Testing Tool",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23sast&sa=D&source=editors&ust=1719189844668690&usg=AOvVaw2IoIsMh6anr4gfWEhp9id0",
+      "description": "OWASP SCVS L1 6.6OpenSSF Scorecar"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql&sa=D&source=editors&ust=1719189844668790&usg=AOvVaw2fRiRT06GarQqAnzLkLlcV",
+      "description": "CodeQL Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "Y",
+    "item": "All Commit Status Checks must pass before Merging",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23branch-protection&sa=D&source=editors&ust=1719189844669889&usg=AOvVaw1PjfpeXWm8WDqioxmG55OL",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches%23require-status-checks-before-merging&sa=D&source=editors&ust=1719189844669986&usg=AOvVaw1Cl3YQ1_u8y2abTpmgrQAT",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "",
+    "item": "At least One Primary Maintainer has taken TBD Training on Secure Software Design",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%230.know_secure_design&sa=D&source=editors&ust=1719189844670279&usg=AOvVaw2B37cWcZJstHG5xMXrH_Nx",
+      "description": "OpenSSF Best Practices Badge Passing Level [know_secure_design]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "7. Code Quality",
+    "c-scrm?": "",
+    "item": "At least One Primary Maintainer has taken TBD Training on OWASP Top 10 or Equivalent",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%230.know_common_errors&sa=D&source=editors&ust=1719189844670586&usg=AOvVaw1GBftgbiJTJZ3ufpKMnY14",
+      "description": "OpenSSF Best Practices Badge Passing Level [know_common_errors]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "8. Code Review",
+    "c-scrm?": "",
+    "item": "[For Projects with Two or more Maintainers] Repo must include interim versions for review",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%230.repo_interim&sa=D&source=editors&ust=1719189844670874&usg=AOvVaw3v9_OPHAXjPKRPCZZqRLsy",
+      "description": "OpenSSF Best Practices Badge Passing Level [repo_interim]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "8. Code Review",
+    "c-scrm?": "",
+    "item": "[For Projects with Two or more Maintainers] Document Code Review Requirements/Process",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%232.code_review_standards&sa=D&source=editors&ust=1719189844671185&usg=AOvVaw3Y1BmIdszhs1F6GJzvtp49",
+      "description": "OpenSSF Best Practices Badge Gold Level [code_review_standards]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "8. Code Review",
+    "c-scrm?": "",
+    "item": "[For Projects with Two or more Maintainers] Document Software Architecture",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://www.bestpractices.dev/en/criteria?details%3Dtrue%26rationale%3Dtrue%231.documentation_architecture&sa=D&source=editors&ust=1719189844671489&usg=AOvVaw21_wRDYVL7mhi0ORcrRL3W",
+      "description": "OpenSSF Best Practices Badge Silver Level [documentation_architecture]"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "8. Code Review",
+    "c-scrm?": "Y",
+    "item": "[For Projects with Two or more Maintainers] Require Four Eyes Review",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23code-review&sa=D&source=editors&ust=1719189844671842&usg=AOvVaw2oIILLuNwBd5PYzO4DouO5",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches%23require-pull-request-reviews-before-merging&sa=D&source=editors&ust=1719189844671932&usg=AOvVaw322nWmZaW-YV3XZNj0DAWF",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "8. Code Review",
+    "c-scrm?": "Y",
+    "item": "[For Projects with Three or more Maintainers] Require Six Eyes Review",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23code-review&sa=D&source=editors&ust=1719189844672304&usg=AOvVaw34oGoAznO3U6JD_TZPN7MW",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches%23require-pull-request-reviews-before-merging&sa=D&source=editors&ust=1719189844672366&usg=AOvVaw33wQUkjA8e6301_eIdfOzH",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "8. Code Review",
+    "c-scrm?": "Y",
+    "item": "[For Projects with Four or more Maintainers] Require Code Owners Review",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23code-review&sa=D&source=editors&ust=1719189844672806&usg=AOvVaw1y-fB27CWp4wMt-Xa-tmuA",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning&sa=D&source=editors&ust=1719189844672871&usg=AOvVaw2ibE_jA3Z5XkXZeA4NqI7R",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "9. Source Control",
+    "c-scrm?": "Y",
+    "item": "Default Branch must be Up to Date before Merging",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23branch-protection&sa=D&source=editors&ust=1719189844673188&usg=AOvVaw3slTsSwpPF8BZlWmiZa7yr",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches%23require-status-checks-before-merging&sa=D&source=editors&ust=1719189844673270&usg=AOvVaw0gqSldLyTAUtrx_4Ds5OtF",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "9. Source Control",
+    "c-scrm?": "Y",
+    "item": "[For Projects with Two or more Maintainers] Prevent Force Push on Default Branch",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23branch-protection&sa=D&source=editors&ust=1719189844673572&usg=AOvVaw3vCHvQyhmABIJbgWZCtRU5",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches&sa=D&source=editors&ust=1719189844673642&usg=AOvVaw0WphpAbcpw6wp4MKEgV0SC",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "9. Source Control",
+    "c-scrm?": "Y",
+    "item": "Prevent Default Branch Deletion",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23branch-protection&sa=D&source=editors&ust=1719189844673990&usg=AOvVaw2C6u3AKtMf_pe62kmEvMTI",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches&sa=D&source=editors&ust=1719189844674077&usg=AOvVaw0fucB9Rx16dCKbTFoaTPZz",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "9. Source Control",
+    "c-scrm?": "Y",
+    "item": "Require Pull Requests before Merging",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23branch-protection&sa=D&source=editors&ust=1719189844674424&usg=AOvVaw215TIAlTgj82VDMstpDbWs",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches%23require-pull-request-reviews-before-merging&sa=D&source=editors&ust=1719189844674509&usg=AOvVaw0FvzFEhlnrSYq48ZgzTdrT",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "9. Source Control",
+    "c-scrm?": "Y",
+    "item": "Dismiss Stale Reviews when New Commits are Pushed",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23branch-protection&sa=D&source=editors&ust=1719189844674851&usg=AOvVaw1OVbX_R2unYb7knS_mWoSm",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches&sa=D&source=editors&ust=1719189844674900&usg=AOvVaw0cXYu0lsD8m3Fc-4ot19Ur",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "9. Source Control",
+    "c-scrm?": "Y",
+    "item": "CI/CD steps should all be automated through a pipeline defined as code",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23build-and-related-continuous-integrationcontinuous-delivery-steps-should-all-be-automated-through-a-pipeline-defined-as-code&sa=D&source=editors&ust=1719189844675243&usg=AOvVaw3Ir6jQuweQtijd5og9y-6i",
+      "description": "CNCF SSCP 1.0 #158"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages&sa=D&source=editors&ust=1719189844675430&usg=AOvVaw1KoMPHzQv19zaPPh00RWWb",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "9. Source Control",
+    "c-scrm?": "Y",
+    "item": "[For Projects with Two or more Maintainers] Require Approval of Most Recent Push",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23branch-protection&sa=D&source=editors&ust=1719189844675735&usg=AOvVaw0_cjXyuSMUvf9xR25QIW7L",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches&sa=D&source=editors&ust=1719189844675809&usg=AOvVaw2vqsN9boVuOt1EvaAkw4Gx",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "10. Dependency Inventory",
+    "c-scrm?": "Y",
+    "item": "A Machine Readable List of all Direct and Transitive Dependencies is Available for the Software",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://scvs.owasp.org/scvs/v1-inventory/%23verification-requirements&sa=D&source=editors&ust=1719189844676130&usg=AOvVaw1e--wWD-AHWZEz-CM9Mnc0",
+      "description": "OWASP SCVS L1 1.3"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security%23what-is-the-dependency-graph&sa=D&source=editors&ust=1719189844676208&usg=AOvVaw0JXuiFKj7PVW6FKO1v2c0a",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "10. Dependency Inventory",
+    "c-scrm?": "Y",
+    "item": "A Machine Readable List of all Direct and Transitive Build Dependencies is Available",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://scvs.owasp.org/scvs/v1-inventory/%23verification-requirements&sa=D&source=editors&ust=1719189844676615&usg=AOvVaw3mA1DKGOk5FgdPuaTg9a7V",
+      "description": "OWASP SCVS L1 1.3"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security%23what-is-the-dependency-graph&sa=D&source=editors&ust=1719189844676737&usg=AOvVaw1h6GZR-bocxuYqYwI2xLWB",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "10. Dependency Inventory",
+    "c-scrm?": "Y",
+    "item": "Automated Process is Used to Monitor for and Maintain a List of Out of Date Dependencies",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://scvs.owasp.org/scvs/v5-component-analysis/&sa=D&source=editors&ust=1719189844677178&usg=AOvVaw1yA9gEiyVbUKysTBpWKgWH",
+      "description": "OWASP SCVS L1 5.7"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security%23what-is-the-dependency-graph&sa=D&source=editors&ust=1719189844677255&usg=AOvVaw1YB3RCeKm0218gYmBV8z_d",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "10. Dependency Inventory",
+    "c-scrm?": "Y",
+    "item": "Automated Process is Used to Identify and Maintain a List of EoL/EoS Dependencies",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://scvs.owasp.org/scvs/v5-component-analysis/&sa=D&source=editors&ust=1719189844677663&usg=AOvVaw2cBTbk2fb0ltJs3dmIwGcH",
+      "description": "OWASP SCVS L3 5.8"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security%23what-is-the-dependency-graph&sa=D&source=editors&ust=1719189844677742&usg=AOvVaw0cJ0-kqEdbb3i1wBmnUNFv",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "10. Dependency Inventory",
+    "c-scrm?": "Y",
+    "item": "Modified dependencies are uniquely identified and distinct from origin dependency",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://scvs.owasp.org/scvs/v6-pedigree-and-provenance/&sa=D&source=editors&ust=1719189844678173&usg=AOvVaw03EzasAtHAeA1A8-12hHEs",
+      "description": "OWASP SCVS L2 6.5"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "11. Dependency Management",
+    "c-scrm?": "Y",
+    "item": "An automated process of identifying and updating publicly disclosed vulnerabilities in depdencies is used",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://scvs.owasp.org/scvs/v5-component-analysis/&sa=D&source=editors&ust=1719189844678663&usg=AOvVaw0F9lgeg9eEfUy1nKkOGfFh",
+      "description": "OWASP SCVS L1 5.4"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates%23managing-dependabot-security-updates-for-your-repositories&sa=D&source=editors&ust=1719189844678822&usg=AOvVaw1TKta33D5aPNpWDScS5mu-",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "11. Dependency Management",
+    "c-scrm?": "Y",
+    "item": "Build Dependencies are Pinned",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23pinned-dependencies&sa=D&source=editors&ust=1719189844679227&usg=AOvVaw1JmNH0uVgg-gV06FScNqgb",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Required",
+    "retired": "Required",
+    "section": "11. Dependency Management",
+    "c-scrm?": "Y",
+    "item": "Binary Dependencies are Built from Source or Retrieved from a Package Manager",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23binary-artifacts&sa=D&source=editors&ust=1719189844679615&usg=AOvVaw2oPgattZMlxQVoxLswRZ9Y",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": ""
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "11. Dependency Management",
+    "c-scrm?": "Y",
+    "item": "Ignore installation scripts when installing npm dependencies",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://cheatsheetseries.owasp.org/cheatsheets/NPM_Security_Cheat_Sheet.html%233-minimize-attack-surfaces-by-ignoring-run-scripts&sa=D&source=editors&ust=1719189844679923&usg=AOvVaw3MSpIWqBQ4ktLMVSNF3kWd",
+      "description": "OWASP npm Security Best Practices"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.npmjs.com/cli/v10/commands/npm-install%23ignore-scripts&sa=D&source=editors&ust=1719189844680016&usg=AOvVaw3EieEcXIlEInr8vVWmfJD-",
+      "description": "npm Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "12. Provenance & Attestation",
+    "c-scrm?": "Y",
+    "item": "Require Commit Signoff in a Github Organization",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23require-signed-commits&sa=D&source=editors&ust=1719189844680272&usg=AOvVaw0fRTX_XuGE83zvpfcc9Haf",
+      "description": "CNCF SSCP 1.0 #325"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization%23managing-compulsory-commit-signoffs-for-your-organization&sa=D&source=editors&ust=1719189844680334&usg=AOvVaw0mpAheT673l_xsfSnZ7lEv",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "12. Provenance & Attestation",
+    "c-scrm?": "Y",
+    "item": "Require Signed Commits",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23require-signed-commits&sa=D&source=editors&ust=1719189844680578&usg=AOvVaw0QDO1YVr68HVg5zR9PL4y7",
+      "description": "CNCF SSCP 1.0 #325"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches%23require-signed-commits&sa=D&source=editors&ust=1719189844680639&usg=AOvVaw3Sv-yk8OOXNFUw6-HE5sux",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Required",
+    "section": "12. Provenance & Attestation",
+    "c-scrm?": "Y",
+    "item": "Sign Github Release Tags",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/sscsp.md%23require-signed-commits&sa=D&source=editors&ust=1719189844680895&usg=AOvVaw0kjKcytBiYMkgd2llAVbd6",
+      "description": "CNCF SSCP 1.0 #325"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits&sa=D&source=editors&ust=1719189844680974&usg=AOvVaw3Ex6WSqxJUl6VmvGHSIfBd",
+      "description": "Github Docs"
+    }
+  },
+  {
+    "incubating": "Required",
+    "active": "Required",
+    "retired": "Recommended",
+    "section": "12. Provenance & Attestation",
+    "c-scrm?": "Y",
+    "item": "Use npm to Generate SLSA Provenance Statements",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23signed-releases&sa=D&source=editors&ust=1719189844681230&usg=AOvVaw141DlOy5G7QhPSUuqY7hyi",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.npmjs.com/generating-provenance-statements&sa=D&source=editors&ust=1719189844681274&usg=AOvVaw3TUV80HtYat5CS85Afp56N",
+      "description": "npm Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "12. Provenance & Attestation",
+    "c-scrm?": "Y",
+    "item": "Use npm to Generate an SBOM and Publish as a Release Artifact",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23sbom&sa=D&source=editors&ust=1719189844681562&usg=AOvVaw1CYS9DNHenVTbUEWGVDc63",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://docs.npmjs.com/cli/v10/commands/npm-sbom&sa=D&source=editors&ust=1719189844681615&usg=AOvVaw22zjGElcMO5lZS3qhD33DU",
+      "description": "npm Docs"
+    }
+  },
+  {
+    "incubating": "Recommended",
+    "active": "Recommended",
+    "retired": "Recommended",
+    "section": "12. Provenance & Attestation",
+    "c-scrm?": "Y",
+    "item": "Use Sigstore to Attest SBOM Release Artifact",
+    "sources": {
+      "url": "https://www.google.com/url?q=https://github.com/ossf/scorecard/blob/main/docs/checks.md%23sbom&sa=D&source=editors&ust=1719189844681928&usg=AOvVaw0TqFYK1mpyZ32KwrPSombV",
+      "description": "OpenSSF Scorecard"
+    },
+    "how to": {
+      "url": "https://www.google.com/url?q=https://github.com/actions/attest-sbom?tab%3Dreadme-ov-file%23identify-subject-and-sbom-by-path&sa=D&source=editors&ust=1719189844681969&usg=AOvVaw3XJnevk6xkpDv1Pk3gQMP1",
+      "description": "Github attest-sbom Docs"
+    }
+  }
+]
