@@ -1054,10 +1054,7 @@
     "retiring": "Recommended",
     "section": "1. User Authentication",
     "c-scrm?": "Y",
-    "item": {
-      "url": "http://github.com/",
-      "description": "Github.com"
-    },
+    "item": "Github.com: Use a passkey (AAL2) or hardware key (AAL3) that activates using a password or biometrics",
     "priority group": "Rec 1",
     "mitre": {
       "url": "https://cwe.mitre.org/data/definitions/308.html",
