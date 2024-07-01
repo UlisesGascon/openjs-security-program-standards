@@ -36,6 +36,7 @@ rows.forEach((row, rowIndex) => {
       }
     })
     if (Object.values(obj).some(value => value !== null && value !== '')) {
+      obj.id = `item-${data.length}`
       data.push(obj)
     }
   }

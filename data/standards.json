@@ -15,7 +15,8 @@
       "url": "https://www.bestpractices.dev/en/criteria?details=true&rationale=true#0.know_secure_design",
       "description": "OpenSSF Best Practices Badge Passing Level [know_secure_design]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-0"
   },
   {
     "incubating": "Expected",
@@ -33,7 +34,8 @@
       "url": "https://www.bestpractices.dev/en/criteria?details=true&rationale=true#0.know_common_errors",
       "description": "OpenSSF Best Practices Badge Passing Level [know_common_errors]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-1"
   },
   {
     "incubating": "Expected",
@@ -54,7 +56,8 @@
     "how to": {
       "url": "https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-2"
   },
   {
     "incubating": "Expected",
@@ -75,7 +78,8 @@
     "how to": {
       "url": "https://docs.npmjs.com/requiring-two-factor-authentication-in-your-organization",
       "description": "npm Docs"
-    }
+    },
+    "id": "item-3"
   },
   {
     "incubating": "Expected",
@@ -93,7 +97,8 @@
       "url": "https://github.com/cncf/tag-security/blob/main/security-whitepaper/v2/cloud-native-security-whitepaper.md",
       "description": "CNCF CNSWP v1.0"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-4"
   },
   {
     "incubating": "Expected",
@@ -114,7 +119,8 @@
     "how to": {
       "url": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-5"
   },
   {
     "incubating": "Expected",
@@ -135,7 +141,8 @@
     "how to": {
       "url": "https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-6"
   },
   {
     "incubating": "Expected",
@@ -156,7 +163,8 @@
     "how to": {
       "url": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-an-organization",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-7"
   },
   {
     "incubating": "Expected",
@@ -177,7 +185,8 @@
     "how to": {
       "url": "https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-8"
   },
   {
     "incubating": "Expected",
@@ -198,7 +207,8 @@
     "how to": {
       "url": "https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-9"
   },
   {
     "incubating": "Expected",
@@ -219,7 +229,8 @@
     "how to": {
       "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-10"
   },
   {
     "incubating": "Expected",
@@ -237,7 +248,8 @@
       "url": "https://docs.npmjs.com/creating-and-viewing-access-tokens",
       "description": "npm Docs"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-11"
   },
   {
     "incubating": "Expected",
@@ -258,7 +270,8 @@
     "how to": {
       "url": "https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-12"
   },
   {
     "incubating": "Expected",
@@ -279,7 +292,8 @@
     "how to": {
       "url": "https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/setting-base-permissions-for-an-organization",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-13"
   },
   {
     "incubating": "Expected",
@@ -300,7 +314,8 @@
     "how to": {
       "url": "https://docs.github.com/en/organizations/managing-organization-settings/restricting-repository-creation-in-your-organization",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-14"
   },
   {
     "incubating": "Expected",
@@ -321,7 +336,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#do-not-allow-bypassing-the-above-settings",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-15"
   },
   {
     "incubating": "Expected",
@@ -342,7 +358,8 @@
     "how to": {
       "url": "https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-16"
   },
   {
     "incubating": "Expected",
@@ -363,7 +380,8 @@
     "how to": {
       "url": "https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-17"
   },
   {
     "incubating": "Expected",
@@ -384,7 +402,8 @@
     "how to": {
       "url": "https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/maintaining-ownership-continuity-for-your-organization",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-18"
   },
   {
     "incubating": "Expected",
@@ -399,7 +418,8 @@
       "url": "https://www.bestpractices.dev/en/criteria#0.vulnerabilities_critical_fixed",
       "description": "OpenSSF Best Practices Badge Passing Level [vulnerabilities_critical_fixed]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-19"
   },
   {
     "incubating": "Expected",
@@ -414,7 +434,8 @@
       "url": "https://googleprojectzero.blogspot.com/p/vulnerability-disclosure-policy.html",
       "description": "Google Project Zero Vulnerability Disclosure Policy"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-20"
   },
   {
     "incubating": "Expected",
@@ -435,7 +456,8 @@
     "how to": {
       "url": "https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates#managing-dependabot-security-updates-for-your-repositories",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-21"
   },
   {
     "incubating": "Expected",
@@ -456,7 +478,8 @@
     "how to": {
       "url": "https://eslint.org/docs/latest/use/getting-started#installation-and-usage",
       "description": "ESLint Docs"
-    }
+    },
+    "id": "item-22"
   },
   {
     "incubating": "Expected",
@@ -477,7 +500,8 @@
     "how to": {
       "url": "https://eslint.org/docs/latest/use/getting-started#installation-and-usage",
       "description": "ESLint Docs"
-    }
+    },
+    "id": "item-23"
   },
   {
     "incubating": "Expected",
@@ -498,7 +522,8 @@
     "how to": {
       "url": "https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql",
       "description": "CodeQL Docs"
-    }
+    },
+    "id": "item-24"
   },
   {
     "incubating": "Expected",
@@ -519,7 +544,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-status-checks-before-merging",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-25"
   },
   {
     "incubating": "Expected",
@@ -534,7 +560,8 @@
       "url": "https://github.com/ossf/scorecard/blob/main/docs/checks.md#security-policy",
       "description": "OpenSSF Scorecard"
     },
-    "how to": "OpenJS CVD Guidance"
+    "how to": "OpenJS CVD Guidance",
+    "id": "item-26"
   },
   {
     "incubating": "Expected",
@@ -552,7 +579,8 @@
     "how to": {
       "url": "https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-an-organization",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-27"
   },
   {
     "incubating": "Expected",
@@ -567,7 +595,8 @@
       "url": "https://www.bestpractices.dev/en/criteria#0.vulnerability_report_response",
       "description": "OpenSSF Best Practices Badge Passing Level [vulnerability_report_response]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-28"
   },
   {
     "incubating": "Expected",
@@ -582,7 +611,8 @@
       "url": "https://best.openssf.org/SCM-BestPractices/#operations",
       "description": "OpenSSF SCM Best Practices"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-29"
   },
   {
     "incubating": "Expected",
@@ -597,7 +627,8 @@
       "url": "https://www.bestpractices.dev/en/criteria?details=true&rationale=true#0.release_notes_vulns",
       "description": "OpenSSF Best Practices Badge Passing Level [release_notes_vulns]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-30"
   },
   {
     "incubating": "Expected",
@@ -612,7 +643,8 @@
       "url": "https://www.bestpractices.dev/en/criteria?details=true&rationale=true#0.release_notes_vulns",
       "description": "OpenSSF Best Practices Badge Passing Level [release_notes_vulns]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-31"
   },
   {
     "incubating": "Deferrable",
@@ -627,7 +659,8 @@
       "url": "https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.regression_tests_added50",
       "description": "OpenSSF Best Practices Badge Silver Level [regression_tests_added50]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-32"
   },
   {
     "incubating": "Expected",
@@ -642,7 +675,8 @@
       "description": "CWE-250"
     },
     "sources": "",
-    "how to": ""
+    "how to": "",
+    "id": "item-33"
   },
   {
     "incubating": "Expected",
@@ -663,7 +697,8 @@
     "how to": {
       "url": "https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise#preventing-github-actions-from-creating-or-approving-pull-requests",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-34"
   },
   {
     "incubating": "Expected",
@@ -681,7 +716,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-35"
   },
   {
     "incubating": "Expected",
@@ -702,7 +738,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-36"
   },
   {
     "incubating": "Expected",
@@ -720,7 +757,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-status-checks-before-merging",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-37"
   },
   {
     "incubating": "Expected",
@@ -741,7 +779,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#managing-github-actions-permissions-for-your-repository",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-38"
   },
   {
     "incubating": "Expected",
@@ -762,7 +801,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#allowing-select-actions-and-reusable-workflows-to-run",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-39"
   },
   {
     "incubating": "Expected",
@@ -783,7 +823,8 @@
     "how to": {
       "url": "https://docs.github.com/en/organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization#limiting-the-use-of-self-hosted-runners",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-40"
   },
   {
     "incubating": "Expected",
@@ -801,7 +842,8 @@
       "url": "https://github.com/ossf/scorecard/blob/main/docs/checks.md#dangerous-workflow",
       "description": "OpenSSF Scorecard"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-41"
   },
   {
     "incubating": "Expected",
@@ -822,7 +864,8 @@
     "how to": {
       "url": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#permissions",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-42"
   },
   {
     "incubating": "Expected",
@@ -843,7 +886,8 @@
     "how to": {
       "url": "https://securitylab.github.com/research/github-actions-untrusted-input/",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-43"
   },
   {
     "incubating": "Expected",
@@ -858,7 +902,8 @@
       "description": "CWE-1068"
     },
     "sources": "",
-    "how to": ""
+    "how to": "",
+    "id": "item-44"
   },
   {
     "incubating": "Expected",
@@ -873,7 +918,8 @@
       "url": "https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.maintenance_or_update",
       "description": "OpenSSF Best Practices Badge Silver Level [maintenance_or_update]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-45"
   },
   {
     "incubating": "Deferrable",
@@ -891,7 +937,8 @@
       "url": "https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_architecture",
       "description": "OpenSSF Best Practices Badge Silver Level [documentation_architecture]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-46"
   },
   {
     "incubating": "Deferrable",
@@ -909,7 +956,8 @@
     "how to": {
       "url": "https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-47"
   },
   {
     "incubating": "Deferrable",
@@ -927,7 +975,8 @@
       "url": "https://securitylab.github.com/research/github-actions-building-blocks/",
       "description": "Github Docs"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-48"
   },
   {
     "incubating": "Expected",
@@ -945,7 +994,8 @@
     "how to": {
       "url": "https://socket.dev/",
       "description": "Socket.Dev"
-    }
+    },
+    "id": "item-49"
   },
   {
     "incubating": "Expected",
@@ -963,7 +1013,8 @@
     "how to": {
       "url": "https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security#what-is-the-dependency-graph",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-50"
   },
   {
     "incubating": "Expected",
@@ -978,7 +1029,8 @@
       "url": "https://scvs.owasp.org/scvs/v6-pedigree-and-provenance/",
       "description": "OWASP SCVS L2 6.5"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-51"
   },
   {
     "incubating": "Expected",
@@ -993,7 +1045,8 @@
       "url": "https://www.bestpractices.dev/en/criteria?details=true&rationale=true#0.maintained",
       "description": "OpenSSF Best Practices Badge Passing Level [maintained]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-52"
   },
   {
     "incubating": "Recommended",
@@ -1017,7 +1070,8 @@
     "how to": {
       "url": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-passkey",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-53"
   },
   {
     "incubating": "Recommended",
@@ -1038,7 +1092,8 @@
     "how to": {
       "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key-for-a-hardware-security-key",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-54"
   },
   {
     "incubating": "Recommended",
@@ -1056,7 +1111,8 @@
       "url": "https://github.com/ossf/great-mfa-project/blob/main/security-rationale.md",
       "description": "OpenSSF Great MFA Project Security Rationale"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-55"
   },
   {
     "incubating": "Recommended",
@@ -1074,7 +1130,8 @@
       "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#controlling-changes-from-forks-to-workflows-in-public-repositories",
       "description": "Github Docs"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-56"
   },
   {
     "incubating": "Recommended",
@@ -1095,7 +1152,8 @@
     "how to": {
       "url": "https://github.com/step-security/secure-repo",
       "description": "Step Security secure-repo"
-    }
+    },
+    "id": "item-57"
   },
   {
     "incubating": "Recommended",
@@ -1116,7 +1174,8 @@
     "how to": {
       "url": "https://github.com/step-security/harden-runner",
       "description": "Step Security harden-runner"
-    }
+    },
+    "id": "item-58"
   },
   {
     "incubating": "Recommended",
@@ -1134,7 +1193,8 @@
       "url": "https://best.openssf.org/SCM-BestPractices/github/member/stale_admin_found.html",
       "description": "OpenSSF SCM Best Practices"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-59"
   },
   {
     "incubating": "Recommended",
@@ -1152,7 +1212,8 @@
       "url": "https://best.openssf.org/SCM-BestPractices/github/member/stale_member_found.html",
       "description": "OpenSSF SCM Best Practices"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-60"
   },
   {
     "incubating": "Recommended",
@@ -1173,7 +1234,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-61"
   },
   {
     "incubating": "Recommended",
@@ -1191,7 +1253,8 @@
     "how to": {
       "url": "https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization#managing-compulsory-commit-signoffs-for-your-organization",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-62"
   },
   {
     "incubating": "Recommended",
@@ -1209,7 +1272,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-signed-commits",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-63"
   },
   {
     "incubating": "Recommended",
@@ -1227,7 +1291,8 @@
     "how to": {
       "url": "https://docs.npmjs.com/cli/v10/commands/npm-sbom",
       "description": "npm Docs"
-    }
+    },
+    "id": "item-64"
   },
   {
     "incubating": "Recommended",
@@ -1248,7 +1313,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-65"
   },
   {
     "incubating": "Recommended",
@@ -1269,7 +1335,8 @@
     "how to": {
       "url": "https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-66"
   },
   {
     "incubating": "Recommended",
@@ -1290,7 +1357,8 @@
     "how to": {
       "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches",
       "description": "Github Docs"
-    }
+    },
+    "id": "item-67"
   },
   {
     "incubating": "Recommended",
@@ -1308,7 +1376,8 @@
       "url": "https://best.openssf.org/SCM-BestPractices/github/member/organization_has_too_many_admins.html",
       "description": "OpenSSF SCM Best Practices"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-68"
   },
   {
     "incubating": "Recommended",
@@ -1326,7 +1395,8 @@
       "url": "https://best.openssf.org/SCM-BestPractices/github/repository/repository_has_too_many_admins.html",
       "description": "OpenSSF SCM Best Practices"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-69"
   },
   {
     "incubating": "Recommended",
@@ -1341,7 +1411,8 @@
       "url": "https://www.bestpractices.dev/en/criteria#0.vulnerabilities_critical_fixed",
       "description": "OpenSSF Best Practices Badge Passing Level [vulnerabilities_critical_fixed]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-70"
   },
   {
     "incubating": "Recommended",
@@ -1356,6 +1427,7 @@
       "url": "https://www.bestpractices.dev/en/criteria#0.vulnerabilities_fixed_60_days",
       "description": "OpenSSF Best Practices Badge Silver Level [vulnerabilities_fixed_60_days]"
     },
-    "how to": ""
+    "how to": "",
+    "id": "item-71"
   }
 ]
