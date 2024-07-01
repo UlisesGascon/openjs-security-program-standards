@@ -17,24 +17,26 @@ const data = []
 rows.forEach((row, rowIndex) => {
   const cells = row.querySelectorAll('th, td')
 
-  if (rowIndex === 2) {
+  if (rowIndex === 1) {
     headers = Array.from(cells).map(cell => cell.textContent)
   } else {
     const obj = {}
     cells.forEach((cell, cellIndex) => {
       if (headers[cellIndex] && cellIndex > 0) {
         const link = cell.querySelector('a')
+        const key = headers[cellIndex].toLowerCase()
         if (link) {
-          obj[headers[cellIndex].toLowerCase()] = {
+          obj[key] = {
             url: link.getAttribute('href'),
             description: link.textContent
           }
         } else {
-          obj[headers[cellIndex].toLowerCase()] = cell.textContent
+          obj[key] = cell.textContent
         }
       }
     })
     if (Object.values(obj).some(value => value !== null && value !== '')) {
+      obj.id = `item-${data.length}`
       data.push(obj)
     }
   }
